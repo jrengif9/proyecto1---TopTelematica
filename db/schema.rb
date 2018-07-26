@@ -12,10 +12,12 @@
 
 ActiveRecord::Schema.define(version: 2018_07_22_162843) do
 
-  create_table "positions", force: :cascade do |t|
-    t.integer "user"
-    t.float "latitud"
-    t.float "longitud"
+  create_table "events", force: :cascade do |t|
+    t.string "user"
+    t.float "x"
+    t.float "y"
+    t.time "time"
+    t.date "date"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end
