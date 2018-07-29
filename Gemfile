@@ -67,3 +67,5 @@ gem 'devise'
 #Estilos
 gem 'bootstrap'
 gem 'jquery-rails'
+
+gem 'pg'
